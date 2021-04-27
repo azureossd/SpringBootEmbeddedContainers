@@ -14,7 +14,7 @@ import javax.validation.constraints.Size;
 public class TodoEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
     // Equivalient of Not Null + Not Empty
     @NotEmpty(message = "Value must be not null and not empty")
     // Min/max length of 2-455 characters
@@ -23,7 +23,7 @@ public class TodoEntity {
     @NotNull(message = "Value must either be true or false")
     private Boolean completed;
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
