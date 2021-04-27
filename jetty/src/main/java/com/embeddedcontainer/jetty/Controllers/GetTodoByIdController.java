@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class GetTodoById {
+public class GetTodoByIdController {
     @Autowired
     private TodoRepository todoRepository;
 
