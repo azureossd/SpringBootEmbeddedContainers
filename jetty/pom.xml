@@ -35,7 +35,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- Add the Jetty dependency to add as its container -->
+		<!-- Add the Jetty dependency -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jetty</artifactId>
