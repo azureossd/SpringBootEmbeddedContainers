@@ -1,4 +1,4 @@
-package com.embeddedcontainer.undertow;
+package com.embeddedcontainer.undertow.Controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
