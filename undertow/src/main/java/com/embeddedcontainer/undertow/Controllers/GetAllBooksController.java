@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class GetAllBooks {
+public class GetAllBooksController {
     @Autowired
     private BookRepository bookRepository;
 
