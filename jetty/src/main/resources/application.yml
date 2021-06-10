@@ -1,0 +1,11 @@
+# Postgres driver connection
+# Azure Database for PostgreSQL
+spring:
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_HOST}.postgres.database.azure.com:${POSTGRES_PORT}/${POSTGRES_DATABASE}?user=${POSTGRES_USERNAME}@${POSTGRES_HOST}&password=${POSTGRES_PASSWORD}&sslmode=require
+    # Localhost
+    # url=jdbc:postgresql://localhost:5432/jettytodo
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
