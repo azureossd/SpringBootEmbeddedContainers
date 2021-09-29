@@ -1,5 +1,5 @@
 # SpringBootEmbeddedContainers
-A repo of CRUD examples in the form of a Todo application that uses different embedded containers, instead of the default which is Tomcat.
+A repo of CRUD examples that uses different embedded containers, instead of the default which is Tomcat.
 
 #### `jetty` - Usage
 A TODO/CRUD application connected to a Postgres database using [Jetty](https://www.eclipse.org/jetty/) as its embedded container.
